@@ -1,11 +1,42 @@
-import { FormEvent, useEffect, useMemo, useState } from "react";
+
+import { useEffect, useMemo, useState } from "react";
+import type { FormEvent } from "react";
+
+
 import {
-  Activity, ArrowDownLeft, ArrowRight, ArrowUpRight, Bot, BookOpen,
-  Check, CheckCircle2, ChevronDown, CircleHelp, CreditCard, Eye, EyeOff,
-  FileText, HandCoins, LayoutDashboard, LockKeyhole, LogIn, LogOut,
-  Menu, MessageCircle, Plus, Search, Send, Settings, ShieldCheck,
-  Sparkles, User, UserRound, Users, Wallet, X, Zap
+  Activity,
+  ArrowDownLeft,
+  ArrowRight,
+  ArrowUpRight,
+  BookOpen,
+  Bot,
+  Check,
+  CheckCircle2,
+  ChevronDown,
+  CircleHelp,
+  CreditCard,
+  Eye,
+  EyeOff,
+  FileText,
+  HandCoins,
+  LayoutDashboard,
+  LockKeyhole,
+  LogIn,
+  LogOut,
+  Menu,
+  Plus,
+  Search,
+  Send,
+  ShieldCheck,
+  Sparkles,
+  User,
+  UserRound,
+  Users,
+  Wallet,
+  X,
+  Zap
 } from "lucide-react";
+
 import "./App.css";
 
 const API = "http://localhost:4000";
